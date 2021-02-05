@@ -1,4 +1,4 @@
-com/example/WebProject/WebProjectApplication.java
- com.example.WebProject.WebProjectApplication
 com/example/WebProject/Controller/ResultController.java
  com.example.WebProject.Controller.ResultController
+com/example/WebProject/WebProjectApplication.java
+ com.example.WebProject.WebProjectApplication

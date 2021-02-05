@@ -7,7 +7,4 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-<<<<<<< HEAD
-//init index.js -> App.js
-=======
->>>>>>> ee323a3... [Test1] frontend
+
