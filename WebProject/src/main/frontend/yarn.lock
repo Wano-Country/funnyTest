@@ -9291,7 +9291,11 @@
   "resolved" "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.8.3.tgz"
   "version" "0.8.3"
 
+<<<<<<< HEAD
 "react-router-dom@^5.2.0":
+=======
+"react-router-dom@5.2.0":
+>>>>>>> ee323a3... [Test1] frontend
   "integrity" "sha512-gxAmfylo2QUjcwxI63RhQ5G85Qqt4voZpUXSEqCwykV0baaOTQDR1f0PmY8AELqIyVc0NEZUj0Gov5lNGcXgsA=="
   "resolved" "https://registry.npmjs.org/react-router-dom/-/react-router-dom-5.2.0.tgz"
   "version" "5.2.0"
@@ -10623,7 +10627,11 @@
     "loader-utils" "^2.0.0"
     "schema-utils" "^2.7.0"
 
+<<<<<<< HEAD
 "styled-components@^5.2.1", "styled-components@>= 2":
+=======
+"styled-components@>= 2", "styled-components@5.2.1":
+>>>>>>> ee323a3... [Test1] frontend
   "integrity" "sha512-sBdgLWrCFTKtmZm/9x7jkIabjFNVzCUeKfoQsM6R3saImkUnjx0QYdLwJHBjY9ifEcmjDamJDVfknWm1yxZPxQ=="
   "resolved" "https://registry.npmjs.org/styled-components/-/styled-components-5.2.1.tgz"
   "version" "5.2.1"
