@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { NavLink } from "react-router-dom"; // <a href>
 
 const Question1 = () => {
-  const [answer, setAnswer] = useState(0);
+  const [points, setPoints] = useState(0);
   return (
     <div className="Qa_container">
       <Question_container>
@@ -11,10 +11,10 @@ const Question1 = () => {
         <h1>당신의 선택은 ?</h1>
       </Question_container>
       <Answer_container>
-        <Choice onClick={() => setAnswer(answer + 1)}>
+        <Choice onClick={() => setPoints(points + 1)}>
           <h1>O</h1>
         </Choice>
-        <Choice onClick={() => setAnswer(answer + 1)}>
+        <Choice onClick={() => setPoints(points + 1)}>
           <h1>O</h1>
         </Choice>
         <Choice>
@@ -24,7 +24,7 @@ const Question1 = () => {
           <h1>X</h1>
         </Choice>
       </Answer_container>
-      <NavLink to={`/Question2/${answer}`} style={{ textDecoration: "none" }}>
+      <NavLink to={`/Question2/${points}`} style={{ textDecoration: "none" }}>
         <Button>Next</Button>
       </NavLink>
     </div>

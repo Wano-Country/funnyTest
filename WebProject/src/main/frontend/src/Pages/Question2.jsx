@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 
 const Question2 = (props) => {
-  const [answer, setAnswer] = useState(Number(props.match.params.answer));
+  const [points, setPoints] = useState(Number(props.match.params.points));
   return (
     <div className="Qa_container">
       <Question_container>
@@ -14,16 +14,16 @@ const Question2 = (props) => {
         <Choice>
           <h1>X</h1>
         </Choice>
-        <Choice onClick={() => setAnswer(answer + 1)}>
+        <Choice onClick={() => setPoints(points + 1)}>
           <h1>O</h1>
         </Choice>
         <Choice>
           <h1>X</h1>
         </Choice>
-        <Choice onClick={() => setAnswer(answer + 1)}>
+        <Choice onClick={() => setPoints(points + 1)}>
           <h1>O</h1>
         </Choice>
-        <NavLink to={`/Result/${answer}`} style={{ textDecoration: "none" }}>
+        <NavLink to={`/Result/${points}`} style={{ textDecoration: "none" }}>
           <Button>Next</Button>
         </NavLink>
       </Answer_container>

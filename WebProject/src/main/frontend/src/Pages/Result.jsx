@@ -2,11 +2,16 @@ import React from "react";
 import styled from "styled-components";
 
 const Result = (props) => {
-  const answer = props.match.params.answer;
+  //const points = props.match.params.points;
+  //const level = props.match.params.level;
   return (
+  /*
     <Answer>
-      <h1>Your developing level is {answer}</h1>
+       <h1>Your developing level is {points}</h1>
+      <h1>Your level is {level}</h1>
     </Answer>
+     */
+     <h1>hi</h1>
   );
 };
 
