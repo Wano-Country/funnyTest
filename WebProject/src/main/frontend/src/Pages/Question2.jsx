@@ -23,10 +23,10 @@ const Question2 = (props) => {
         <Choice onClick={() => setPoints(points + 1)}>
           <h1>O</h1>
         </Choice>
-        <NavLink to={`/Result/${points}`} style={{ textDecoration: "none" }}>
-          <Button>Next</Button>
-        </NavLink>
       </Answer_container>
+      <NavLink to={`/Result/${points}`} style={{ textDecoration: "none" }}>
+        <Button>Next</Button>
+      </NavLink>
     </div>
   );
 };
